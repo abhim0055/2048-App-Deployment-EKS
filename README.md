@@ -117,6 +117,8 @@ Delete the fargate profile
 
  aws eks delete-fargate-profile --cluster-name demo-cluster-1 --fargate-profile-name alb-sample-app --region us-east-1
 
+Delete the cloud formation stack resources as well to avoid conflict when you try to create cluster next time.
+
 
 delete the cluster
 
